@@ -10,7 +10,7 @@
   inputs.src-io-spacenav-master.flake = false;
   inputs.src-io-spacenav-master.ref   = "refs/heads/master";
   inputs.src-io-spacenav-master.owner = "nimious";
-  inputs.src-io-spacenav-master.repo  = "io-spacenav.git";
+  inputs.src-io-spacenav-master.repo  = "io-spacenav";
   inputs.src-io-spacenav-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
