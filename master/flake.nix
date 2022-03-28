@@ -11,7 +11,6 @@
   inputs.src-spacenav-master.ref   = "refs/heads/master";
   inputs.src-spacenav-master.owner = "nimious";
   inputs.src-spacenav-master.repo  = "io-spacenav";
-  inputs.src-spacenav-master.dir   = "";
   inputs.src-spacenav-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
